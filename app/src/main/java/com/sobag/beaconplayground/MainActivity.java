@@ -24,11 +24,11 @@ public class MainActivity extends ActionBarActivity
 
     private static final String LOG_TAG = "MainActivity";
 
-private BluetoothManager btManager;
-private BluetoothAdapter btAdapter;
-private Handler scanHandler = new Handler();
-private int scan_interval_ms = 5000;
-private boolean isScanning = false;
+    private BluetoothManager btManager;
+    private BluetoothAdapter btAdapter;
+    private Handler scanHandler = new Handler();
+    private int scan_interval_ms = 5000;
+    private boolean isScanning = false;
 
     // ------------------------------------------------------------------------
     // default stuff...
